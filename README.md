@@ -1,3 +1,6 @@
+### 海风小店plus（原海风小店增强版）
+原海风小店作者似乎不维护了，fork出来进行功能增强和BUG修复
+
 ### 海风小店，开源商城（后台管理端VUE）
 
 + 基于开源项目NideShop重建，精简了一些功能的同时完善了一些功能，并重新设计了UI
@@ -19,41 +22,38 @@ https://www.bilibili.com/video/av89568075
 用户名：hiolabs  
 密码：hiolabs
 
-<a target="_blank" href="https://www.aliyun.com/minisite/goods?userCode=zm04niet"><img width="1400" src="http://git.hiolabs.com/aliyun.jpg"/></a>
-阿里云主机：低至2折<a target="_blank" href="https://www.aliyun.com/minisite/goods?userCode=zm04niet">立即去看看</a>
-
 ### 项目截图
 + Dashboard
 
-<img width="900" src="http://git.hiolabs.com/github/dashboard.jpg"/>
+<img width="900" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/dashboard.jpg"/>
 
 + 订单
 
-<img width="900" src="http://git.hiolabs.com/github/order.jpg"/>
+<img width="900" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/order.jpg"/>
 
 + 电子面单生成
 
-<img width="900" src="http://git.hiolabs.com/github/express2.jpg"/>
+<img width="900" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/express2.jpg"/>
 
 + 商品管理
 
-<img width="900" src="http://git.hiolabs.com/github/goods.jpg"/>
+<img width="900" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/goods.jpg"/>
 
 + 购物车
 
-<img width="900" src="http://git.hiolabs.com/github/cart.jpg"/>
+<img width="900" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/cart.jpg"/>
 
 + 用户
 
-<img width="900" src="http://git.hiolabs.com/github/user.jpg"/>
+<img width="900" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/user.jpg"/>
 
 + 运费模板
 
-<img width="900" src="http://git.hiolabs.com/github/template.jpg"/>
+<img width="900" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/template.jpg"/>
 
 + 运费模板详情页
 
-<img width="900" src="http://git.hiolabs.com/github/template2.jpg"/>
+<img width="900" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/template2.jpg"/>
 
 ### 本地开发环境配置
 + 克隆项目到本地
@@ -63,31 +63,28 @@ git clone https://github.com/iamdarcy/hioshop-admin
 + 安装依赖
 ```
 npm install
-
 ```
 安装依赖后启动后会出现一个问题。
 
-<img width="600" src="http://git.hiolabs.com/github/error.jpg"/>
+<img width="600" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/error.jpg"/>
 
 这个问题是Element-ui自带的。解决方法：
 
 在node_modules 搜索:  div class="el-form-item__label-wrap" style={style}  
 然后在语句中加上单引号就可以了。
 
-<img width="600" src="http://git.hiolabs.com/github/before.jpg"/>
+<img width="600" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/before.jpg"/>
 
-<img width="600" src="http://git.hiolabs.com/github/after.jpg"/>
+<img width="600" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/after.jpg"/>
 
 + 启动
 ```
 npm run dev
-
 ```
 
 + build 打包成静态文件
 ```
 npm run build:web 或者 sudo npm run build:web
-
 ```
 
 生成的静态文件在dist的web文件夹中，上传到服务器就可以在浏览器中打开了。
@@ -101,13 +98,11 @@ npm run build:web 或者 sudo npm run build:web
 
 ### 最近更新 
 - 新增生成分享图的功能
-<img width="1000" src="http://git.hiolabs.com/github/save-local.jpg"/>
+<img width="1000" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/save-local.jpg"/>
 
 - 项目地址  
 后台管理：https://github.com/iamdarcy/hioshop-admin  
 服务端： https://github.com/iamdarcy/hioshop-server  
 微信小程序：https://github.com/iamdarcy/hioshop-miniprogram  
 
-- 本项目会持续更新和维护，喜欢别忘了 Star，有问题可通过微信、QQ群联系我，谢谢您的关注。
-<img width="1200" src="http://git.hiolabs.com/github/contact.jpg"/>
-
+- 本项目会持续更新和维护，喜欢别忘了 Star
