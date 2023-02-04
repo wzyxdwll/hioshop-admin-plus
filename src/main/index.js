@@ -20,7 +20,15 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     height: 563,
     useContentSize: true,
-    width: 1000
+    width: 1000,
+    webPreferences: {
+      //  渲染进程 开启node模块，使得JS中可以使用node的model
+      nodeIntegration: true,
+      // 开启 remote 模块
+      enableBlinkFeatures: true,
+      // 控制上下文隔离
+      contextIsolation: false,
+    }
   })
 
   mainWindow.loadURL(winURL)
