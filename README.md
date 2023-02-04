@@ -15,8 +15,8 @@
 https://www.bilibili.com/video/av89568075
 
 #### 本项目需要配合  
-服务端： https://github.com/wzyxdwll/hioshop-server-plus
-微信小程序：https://github.com/iamdarcy/hioshop-miniprogram-plus
+服务端： https://github.com/wzyxdwll/hioshop-server-plus  
+微信小程序：https://github.com/iamdarcy/hioshop-miniprogram-plus  
 
 线上demo：http://hiolabs.com/demo/#/login  
 用户名：hiolabs  
@@ -101,8 +101,8 @@ npm run build:web 或者 sudo npm run build:web
 <img width="1000" src="https://raw.githubusercontent.com/iamdarcy/hiolabs/master/git-images/save-local.jpg"/>
 
 - 项目地址  
-后台管理：https://github.com/iamdarcy/hioshop-admin  
-服务端： https://github.com/iamdarcy/hioshop-server  
-微信小程序：https://github.com/iamdarcy/hioshop-miniprogram  
+后台管理：https://github.com/wzyxdwll/hioshop-admin-plush  
+服务端： https://github.com/wzyxdwll/hioshop-server-plus  
+微信小程序：https://github.com/wzyxdwll/hioshop-miniprogram-plus  
 
 - 本项目会持续更新和维护，喜欢别忘了 Star
