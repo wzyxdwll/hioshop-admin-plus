@@ -15,8 +15,8 @@
 https://www.bilibili.com/video/av89568075
 
 #### 本项目需要配合  
-服务端： https://github.com/iamdarcy/hioshop-server  
-微信小程序：https://github.com/iamdarcy/hioshop-miniprogram
+服务端： https://github.com/wzyxdwll/hioshop-server-plus
+微信小程序：https://github.com/iamdarcy/hioshop-miniprogram-plus
 
 线上demo：http://hiolabs.com/demo/#/login  
 用户名：hiolabs  
